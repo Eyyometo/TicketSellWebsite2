@@ -1,0 +1,1627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css" integrity="sha512-xnP2tOaCJnzp2d2IqKFcxuOiVCbuessxM6wuiolT9eeEJCyy0Vhcwa4zQvdrZNVqlqaxXhHqsSV1Ww7T2jSCUQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style2.css"/>
+</head>
+<body>
+	<div class="top-header">
+	<div class="container">
+	<ul class="topnav">
+  		<li><a class="active" href="#home">Anasayfa</a></li>
+  		<li><a href="index.html">Giriş Yap</a></li>
+		<li><a href="sepet.html">Sepetim</a></li>
+  		<li><a href="teşekkür.html">Çıkış Yap</a></li>
+	</ul>
+</div>
+</div>
+<div class="container mt-3">
+	<div class="row">
+			<div class="col-md-3 mb-4">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="resimler/ekmek.png"  />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Tane Ekmek </div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$1</div>
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2 "><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form> 
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/cola.png" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Tane kola</div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$3</div>
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2 "><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/soğan.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Kilo soğan</div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$4 </div>
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality  mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/meyve.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Kilo Meyve</div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$6  </div>
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality  mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+		<div class="col-md-3 mb-4">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/çikolata.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Kilo çikolata</div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$2 </div>
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality  mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+		<div class="col-md-3 mb-4">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/hamburger.png" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Tane Hamburger</div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$7 </div>
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+		<div class="col-md-3 mb-4">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/pasta.png" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Tane Pasta</div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$10  </div>
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality  mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+		<div class="col-md-3 mb-4">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/unnamed.png" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Araba</div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$50.000</div>
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality  mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+		<div class="col-md-3 mb-4">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/iphone.png" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">İPHONE 12 PRO 128 GB</div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$5.000  </div>
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality  mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+		<div class="col-md-3 mb-4">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/airpods.png" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">AİRPODS </div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$1.000</div>
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit"  value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+		<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/yağ.png" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Litrelik yağ </div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$50</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+		<div class="col-md-3 mb-4">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/pirzola.png" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Pişmiş Pirzola</div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$15</div>
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/ps5.jpeg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Playstation 5 </div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$200</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/pudra şekeri.png" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Tane Pudra Şekeri </div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$35</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/airmax.png" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Airmax 720 </div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$340</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/bez.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Bebek bezi</div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$30</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/maske.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Maske </div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$11</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/altın.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Çeyrek Altın </div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$800</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/instagram.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">İnstagram </div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$10.000.000</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/ferrari.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Ferrari </div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$50.000</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/villa.jpeg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Sahibinden Villa </div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$333.000</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/yavuzköprü.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Yavuz Sultan Selim Köprüsü </div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$3.000.000</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/twitter.png" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Twitter </div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$5.000.000</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/ipad.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">İpad pro 256 GB </div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$3.000</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/kolzet.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Altın Klozet</div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$40.000</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/alex.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">KRAL ALEX DE SOUZA </div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">Paha biçilemez</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/bitcoin.png" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Bitcoin </div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$316.000.000</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/ada.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Dominik Adası </div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$2.000.000</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/fb.png" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Fenerbahçe Spor Külübü </div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$1.907.000.000</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/falcon.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Space X Falcon Roket</div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$20.000.000</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/face.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Facebook</div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$80.000.000</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/Rapstar.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Ceza</div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$1.000.000</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/gemi.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Korsan Gemisi</div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$4.000.000</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/ronaldı.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Cristiano Ronaldo</div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$84.000.000</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/havalimanı.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">ATATÜRK Havalimanı</div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$28.000.000</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+			<div class="col-md-3 mb-4 ">
+				<div class="product-cnt" >
+					<div class="product-img">
+						<img src="./resimler/pc.jpg" class="img-fluid text-center" />
+					</div>
+					<form method="post">
+						<div class="prod-det">
+							<div class="row">
+							<div class="col-md-12">
+								<div class="product-name mt5"></div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-price  mt5">Gaming Notebook</div>
+							</div>
+							<div class="col-md-12">
+								<div class="product-stok mt5">$100</div>  
+							</div>
+							</div>
+						</div>
+
+						<div class="product-quality mt-2">
+							<select name="quality" required>
+								<option value="">Adet</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<div class="clearfix" ></div>
+						</div>
+						<div class="ekle-btn mt-2"><input type="submit" value="Ekle"></div>
+						<input type="hidden" id="product_id" name="product_id" value="">
+					</form>
+					<div class="clearfix" ></div>
+				</div>
+			</div>
+
+
+
+		
+	</div>
+</div>	
+	
+<footer class="bg-dark text-center text-white">
+    
+    <div class="container p-4">
+     
+      <section class="mb-4">
+        
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+            <i class="bi bi-facebook"></i>  </a>
+      
+  
+        
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+        <i class="bi bi-twitter"></i></a>
+        
+  
+       
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+            <i class="bi bi-google"></i></a>
+        
+  
+        
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+        <i class="bi bi-instagram"></i></a>
+       
+  
+       
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button" >
+        <i class="bi bi-linkedin"></i></a>
+        
+  
+      
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+        <i class="bi bi-github"></i></a>
+       
+      </section>
+      
+  
+      
+      <section class="mail">
+        <form action="">
+          
+          <div class="row d-flex justify-content-center">
+            
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>E-mail Adresinizi Giriniz:</strong>
+              </p>
+            </div>
+           
+  
+            
+            <div class="col-md-5 col-12">
+             
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example2" class="form-control" placeholder="Email adress"/>
+                
+              </div>
+            </div>
+            
+  
+            
+            <div class="col-auto">
+              
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Gönder
+              </button>
+            </div>
+           
+          </div>
+         
+        </form>
+      </section>
+    </div>
+  
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <span class="text-white">ANDAÇ TAŞDEMİR</span>
+    </div>
+  </footer>
+	
+	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+	
+</body>
+</html>

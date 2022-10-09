@@ -1,0 +1,127 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color: #6a6f8c;
+    background: white;
+    font: 600 16px/18px "Open Sans", sans-serif;
+    background: url(../resimler/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+.clearfix:after,
+.clearfix:before {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+    display: block;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.form {
+    border: 2px solid green;
+    background-color: #fbfcff;
+    color: black;
+    padding-bottom: 30px;
+}
+.tittle {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Staatliches", cursive;
+    font-size: 50px;
+}
+.kullanıcı {
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+.kullanıcı input[type="text"] {
+    background-color: rgb(209, 209, 209);
+    padding: 15px;
+    color: white;
+    border: none;
+    width: 100%;
+}
+
+.sifre input[type="password"] {
+    background-color: rgb(209, 209, 209);
+    padding: 15px;
+    color: white;
+    border: none;
+    width: 100%;
+}
+
+
+.kullanıcı input::placeholder {
+    color: rgb(235, 235, 235);
+}
+.sifre {
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+.sifre input[type="text"] {
+    background-color: rgb(209, 209, 209);
+    padding: 15px;
+    color: white;
+    border: none;
+    width: 100%;
+}
+.sifre input::placeholder {
+    color: rgb(235, 235, 235);
+}
+.check-button {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.login-button {
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.login-button input[type="submit"] {
+    background-color: rgb(136, 0, 102);
+    border: none;
+    color: white;
+    padding: 15px;
+    width: 100%;
+}
+.sol-title {
+    color: white;
+    font-size: 58px;
+    line-height: 75px;
+}
+.sol-title-2 {
+    color: white;
+    font-size: 58px;
+    line-height: 75px;
+}
+.sol-title-3 {
+    color: white;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.dikey-ort {
+    display: flex;
+    align-items: center;
+}
+
+.custom-space {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}

@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  color: #6a6f8c;
+  background: white;
+  font: 600 16px/18px "Open Sans", sans-serif;
+  background-image: url(../resimler/bg-pattern.png) !important;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+  display: block;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.top-header {
+  background-color: #333;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+ul.topnav li a.active {
+  background-color: #04aa6d;
+}
+
+.copy {
+  background-color: #333;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  position: inherit;
+  margin-top: 160px;
+  text-align: center;
+}
+.basket {
+  background-color: white;
+  padding: 10px;
+  border-bottom: solid 1px #ddd;
+  color: black;
+}
+.basket2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #ddd;
+}
+.tittle {
+  line-height: 20px;
+  font-size: 20px;
+  font-family: "Oxygen", sans-serif;
+  margin-left: -10px;
+}
+.tittle2 {
+  line-height: 20px;
+  font-size: 20px;
+  font-family: "Oxygen", sans-serif;
+}
+.tittle3 {
+  line-height: 20px;
+  font-size: 20px;
+  font-family: "Oxygen", sans-serif;
+}
+.float-right {
+  float: right;
+}
+.check-btn {
+  float: right;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+.cont {
+  margin-top: 80px;
+  margin-left: 50px;
+}
+.basket-height {
+  min-height: 80vh;
+}
+.send-price {
+  border: 1px solid #6a6f8c;
+  padding: 10px;
+  border-radius: 0.8rem;
+  text-align: left;
+}
+.send-tittle {
+  margin-bottom: 10px;
+  font-weight: 800;
+  margin-left: 10px;
+  margin-top: 15px;
+  font-family: "Oxygen", sans-serif;
+  color: black;
+}
+.send-tutar {
+  margin-left: 10px;
+  margin-top: 15px;
+  font-family: "Oxygen", sans-serif;
+  color: black;
+}
+.button {
+  padding: 10px;
+}
+.button a {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.alt-çizgi {
+  border: 1px solid #6a6f8c;
+  margin-top: 15px;
+  width: 100%;
+}
+.kargo {
+  margin-left: 10px;
+  font-size: small;
+  margin-top: 15px;
+}
+.kargo-ucreti {
+  font-size: small;
+  margin-top: 15px;
+}
+.text-center {
+  font-family: "Oxygen", sans-serif;
+  color: black;
+}
+.button2 a {
+  display: block;
+  margin-top: 20px;
+}
+.resim {
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.satin-alma-formu {
+  display: none;
+}
+
+.iicon {
+  color: white;
+  font-size: 20px;
+  background-color: rgb(33, 152, 199);
+  padding: 5px;
+  border-radius: 7px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.ad input[type="text"] {
+  border: 2px solid #6a6f8c;
+  background-color: rgb(209, 209, 209);
+  padding: 15px;
+  color: white;
+  border: none;
+  width: 100%;
+  margin-left: 10px;
+  border-radius: 0.8rem;
+  outline: none;
+}
+.ad input[type="text"]:hover {
+  border: 2px solid black;
+}
+.satin-alma-formu {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+}
+.toplam-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.tel input[type="text"] {
+  border: 2px solid #6a6f8c;
+  background-color: rgb(209, 209, 209);
+  padding: 15px;
+  color: white;
+  border: none;
+  width: 100%;
+  margin-left: 10px;
+  border-radius: 0.8rem;
+  outline: none;
+}
+.tel input[type="text"]:hover {
+  border: 2px solid black;
+}
+.mail input[type="email"] {
+  border: 2px solid #6a6f8c;
+  background-color: rgb(209, 209, 209);
+  padding: 15px;
+  color: white;
+  border: none;
+  width: 100%;
+  margin-left: 10px;
+  border-radius: 0.8rem;
+  outline: none;
+}
+.mail input[type="email"]:hover {
+  border: 2px solid black;
+}
+.adres textarea {
+  border: 2px solid #6a6f8c;
+  background-color: rgb(209, 209, 209);
+  padding: 15px;
+  color: white;
+  border: none;
+  width: 100%;
+  margin-left: 10px;
+  border-radius: 0.8rem;
+  outline: none;
+}
+.adres textarea:hover {
+  border: 2px solid black;
+}
+.btn {
+  margin-left: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

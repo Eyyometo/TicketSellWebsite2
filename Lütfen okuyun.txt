@@ -1,0 +1,11 @@
+Hocam Merhaba,
+
+Öncelikle connect.php dosyasının içinde bulunan bilgiler, kendi kullanıcı adı ve şifre bilgisi
+ile eşleşmesi gerektiği için dışarı aktardığım sql dosyasını
+kendi phpmyadmin sistemine aktarırken kullanıcı adı ve şifrenizi connect.php de değiştiriniz. örneğin "root" "1234" gibi
+
+login sayfasındaki sisteme giriş bilgileri:
+1)"admin" "andac0000" 
+1)"admin" "metin0000" 
+1)"admin" "fatima0000" 
+1)"admin" "hatice0000" 
